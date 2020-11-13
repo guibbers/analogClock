@@ -5,6 +5,7 @@
 }
 
 body {
+   font-family: 'Roboto', sans-serif;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -14,11 +15,40 @@ body {
 }
 
 body.dark {
-   background:#091921 ;
+   background:#091921;
+   color: white;
 }
 
 section#toggle {
    margin-top: 30px;
+}
+
+button {
+   padding: 5px;
+}
+
+footer {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 10px;
+}
+
+a {
+   color: #5ba37f;
+   font-weight: 700;
+   margin: 5px;
+   margin-left: 5px;
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+a:visited{
+   color: #5ba37f;
 }
 
 .clock {
