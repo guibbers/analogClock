@@ -2,6 +2,13 @@ const deg = 6;
 const hr = document.querySelector('#hr');
 const mn = document.querySelector('#mn');
 const sc = document.querySelector('#sc');
+const btn = document.querySelector('#btn');
+
+
+btn.addEventListener('click', () => {
+   const body = document.querySelector('body');
+   body.classList.toggle("dark");
+})
 
 
 

@@ -9,7 +9,16 @@ body {
    justify-content: center;
    align-items: center;
    min-height: 100vh;
-   background: #091921;
+   background: azure;
+   flex-direction: column;
+}
+
+body.dark {
+   background:#091921 ;
+}
+
+section#toggle {
+   margin-top: 30px;
 }
 
 .clock {
@@ -33,7 +42,7 @@ body {
    position: absolute;
    width: 15px;
    height: 15px;
-   background: #fff;
+   background: black;
    border-radius: 50%;
    z-index: 10000;
 }
@@ -82,7 +91,7 @@ body {
    position: absolute;
    width: 4px;
    height: 90px;
-   background: #fff;
+   background: black;
    z-index: 11;
    border-radius: 6px 6px 0 0;
 }
@@ -92,7 +101,7 @@ body {
    position: absolute;
    width: 2px;
    height: 150px;
-   background: #fff;
+   background: black;
    z-index: 12;
    border-radius: 6px 6px 0 0;
 }
